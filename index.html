@@ -8,7 +8,7 @@
 <body>
     <div id="student-info">
         <h1>Nolan Ngo<h1>
-            <p>My favorite color is green and I wear New Balance!</p>
+            <p>My favorite color is green and I wear Fedoras!</p>
     </div>
     <div id="data-input">
         <h1>Font Styler</h1>
@@ -20,9 +20,19 @@
                 <option value="georgia">Georgia</option>
             Font Color: <input id="input-color" type="color" value="#000">
             Background Color: <input id="input-bg-color" type="color" value="#fff">
-            Enter Text: <textarea id="enter-text">
+            Enter Text: <textarea id="enter-text"></textarea>
     </div>
-    <div id="headline-display"></div>
-    <div id="data-output"></div>
+    <div id="headline-display">
+        <h1 id="display"></h1>
+    </div>
+    <div id="data-output">
+        <pre><code>.headline {
+            font-size: <span id="show-size">16</span>px;
+            font-family: <span id="show-font">Times</span>;
+            color: <span id="show-color">#000</span>;
+            background-color: <span id="show-bg-color">#fff</span>;
+        }</code></pre>
+    </div>
+
 </body>
 </html>
